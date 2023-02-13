@@ -21,6 +21,7 @@
  % \set Score.barNumberVisibility = #all-bar-numbers-visible
  % \set midiInstrument = #"Drums"
   \set Staff.instrumentName = #"drums"
+  \set DrumStaff.drumStyleTable = #agostini-drums-style
   \drummode {
   \time 4/4
   \tempo 4 = 126
