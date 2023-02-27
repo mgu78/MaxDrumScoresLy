@@ -1,4 +1,5 @@
 \header {
+  \version "2.24.1"
   title = "And here we test our power of observation"
   composer = "The Bad Plus / drums: David King"
   tagline = \markup {
