@@ -40,16 +40,16 @@
       << {<< bd16 hh16>> sn hh hh sn-> hh8. << bd16 hh16>> sn << bd16 hh16>> sn hh hh sn8-> }  >> \break
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r4 sn16 sn r8  }  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn4 bd8 sn4 bd8}  >> 
-      << { \repeat unfold 8 hh8 } \\  {sn4 bd8 sn4 bd16 \parenthesize sn bd16 \parenthesize sn hh hh}  >> 
+      << { \repeat unfold 7 hh8 hh16 hh } \\  {sn4 bd8 sn4 bd16 \parenthesize sn bd16 \parenthesize sn8. }  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r4 sn4}  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd sn4 bd}  >> \break
-      << { \repeat unfold 8 hh8 } \\  {sn4 bd16 sn sn8_> r8 sn16 sn sn sn sn sn}  >> 
+      << { \repeat unfold 4 hh8 hh4 r4 } \\  {sn4 bd16 sn sn8_> r8 sn16 sn sn sn sn sn}  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r sn r8 \parenthesize sn16 \parenthesize sn}  >>
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd sn4 bd}  >> 
       << { \repeat unfold 8 hh8 } \\  {sn4 bd8 sn4 bd8 sn4 }  >> \break
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r8 sn8 sn4}  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r8 \parenthesize sn16 \parenthesize sn bd4}  >> 
-      << { \repeat unfold 8 hh8 } \\  {sn4 bd16 sn sn sn sn sn sn sn sn sn sn sn}  >>  \break
+      << { \repeat unfold 2 hh8 hh4 r2 } \\  {sn4 bd16 sn sn sn sn sn sn sn sn sn sn sn}  >>  \break
       << { \repeat unfold 8 hh8 } \\  {bd4 r sn r8 bd}  >> 
       << { \repeat unfold 8 hh8 } \\  {r8 bd bd4 sn4 r8 bd8}  >> 
       << { \repeat unfold 8 hh8 } \\  {r8 bd bd4 sn4 r8 bd8}  >> 
@@ -57,13 +57,13 @@
       << { \repeat unfold 8 hh8 } \\  {r8 bd bd4 sn4 r8 bd8}  >> 
       << { \repeat unfold 8 hh8 } \\  {r8 bd bd4 sn4 sn8 bd8}  >> 
       << { \repeat unfold 8 hh8 } \\  {r4 bd4 sn4 r8 bd8}  >> 
-      << { \repeat unfold 8 hh8 } \\  {r8 bd sn4 bd8 sn16 sn sn sn sn sn}  >> \break
+      << { \repeat unfold 4 hh8 hh4 r } \\  {r8 bd sn4 bd8 sn16 sn sn sn sn sn}  >> \break
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r8 \parenthesize sn16 \parenthesize sn r4 }  >> 
       << { \repeat unfold 8 hh8 } \\  {\parenthesize sn4 bd4 sn bd}  >> 
-      << { \repeat unfold 8 hh8 } \\  {sn4 bd8 sn r bd16 \parenthesize sn bd16 \parenthesize sn hh hh}  >> 
+      << { \repeat unfold 7 hh8 hh16 hh } \\  {sn4 bd8 sn r bd16 \parenthesize sn bd16 \parenthesize sn8. }  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd r8 \parenthesize sn16 sn r4}  >> \break
       << { \repeat unfold 8 hh8 } \\  {\parenthesize sn4 bd4 sn4 bd4}  >> 
-      << {  } \\  {sn16 sn sn sn sn8 sn16 sn sn sn sn8 r4}  >> 
+      << {  } \\  {sn16 sn sn sn sn8_> sn16 sn sn sn sn8_>  r4}  >> 
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd4 sn8 bd4}  >> 
       << { \repeat unfold 8 hh8 } \\  {\parenthesize sn4 bd4 sn4 bd4}  >> \break
       << { \repeat unfold 8 hh8 } \\  {bd4 sn8 bd4 sn8 bd4}  >> 
