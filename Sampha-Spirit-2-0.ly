@@ -2,7 +2,7 @@
 \header {
   \version "2.24.1"
   title = "Spirit 2.0"
-  composer = "Sampha "
+  composer = "Sampha / drums: Yussef Dayes"
   tagline = \markup {
     Engraved at
     \simple #(strftime "%Y-%m-%d" (localtime (current-time)))
@@ -34,7 +34,7 @@
    % \stemDown
       
       \set countPercentRepeats = ##t
-  \repeat percent 8 { r1} 
+  \repeat percent 8 { r1}  \break
       <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
           {r4 ss4 r4 ss4}   >>
      <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh32 hho16. hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
