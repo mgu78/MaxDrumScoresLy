@@ -41,13 +41,36 @@
           {r4 ss4 r4 ss4}   >>
      <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
           {r4 ss4 r4 ss4}   >>
-     <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh32 hh16. hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
-          {r4 ss4 r4 ss4}   >>
-     <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
+     <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh32 hh16.->  hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
           {r4 ss4 r4 ss4}   >>
      
-     
-  %    << {<<bd 8 hhho  >> << bd8 hhho>><< bd8 hhho>>  hh hh16 hh sn-> sn-> hh \parenthesize sn hh hh } >>
+      \repeat percent 12 {<<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
+          {r4 ss4 r4 ss4}   >>}  \break
+    << {r2 \tuplet 6/4 {sn16 sn sn sn sn sn} \tuplet 3/2 {ss8 ss ss} \tuplet 3/2 {sn8:32 sn8:32 sn8:32 } r4 r \acciaccatura ss16 ss4 }>>
+    <<{r1 r}>>
+  << {r2 \tuplet 6/4 {sn16 sn sn sn sn sn} \tuplet 3/2 {ss8 ss ss} \tuplet 3/2 {sn8:32 sn8:32 sn8:32 } r4 r \acciaccatura ss16 ss4 }>>
+ <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32 hh16 hh hh32 hh16 hh32  } \\ 
+          {bd4 ss8. ss16  r4 ss8. ss16}   >>
+ <<  {hh16 hh hh32 hh16 hh32 hh16 hh hh8 r2 } \\ 
+          {r4 ss8 r32 ss32 ss16->   \tuplet 6/4 {sn16 sn sn sn sn sn}   ss8-> ss  }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh hh hh hh hh hh hh hh   } \\ 
+          {r8 bd16 bd bd bd ss8 r16.  ss32 bd16 bd ss4 }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16 hh32 hh hh16 hh hh hh hh   } \\ 
+          {r16.  ss32 bd16 bd          bd bd ss16. ss32 r4 ss8.. ss32  }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16 hh hh hh hh hh hh   } \\ 
+          {r8 bd16 bd bd bd ss16. ss32  r4 ss8.. ss32 }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16  hh hh16 hh hh hh8   } \\ 
+          {r8 bd16 bd          bd bd ss16. ss32 r4 ss8 r32 ss32 ss16->  }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16  hh hh16 hh hh hh hh   } \\ 
+          {r16.  ss32 bd16 bd          bd bd ss16. ss32 r4 ss4 }   >>
+ <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16->  hh hh16 hh hh hh hh   } \\ 
+          {r16.  ss32 bd16 bd          bd bd ss16. ss32 r4 ss8 ss16. ss32  }   >>
+  <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16  hh hh16 hh hh hh hh   } \\ 
+          { r8 bd16 bd          bd bd ss16. ss32 r4 ss8. ss32 ss }   >>
+  <<  {hh16 hh hh hh hh hh hh hh hh32 hh hh16  hh hh16 hh hh hh hh   } \\ 
+          { r8 bd16 bd          bd bd ss16. ss32 r4 ss8. ss32 ss }   >>
+  
+ %    << {<<bd 8 hhho  >> << bd8 hhho>><< bd8 hhho>>  hh hh16 hh sn-> sn-> hh \parenthesize sn hh hh } >>
 %       << {\parenthesize sn16 \parenthesize sn hh <<hh bd>> \parenthesize sn \parenthesize sn <<hh bd>> \parenthesize sn\parenthesize sn <<hh bd>> sn-> \parenthesize sn <<hh bd>> sn-> hh <<hh bd>> }  >>
 %       << {<<bd 8 hhho  >> << bd8 hh>><< bd8 hhho>>  hh16 \parenthesize sn hh hh sn-> sn-> hh \parenthesize sn hh hh } >> 
 %       << {\parenthesize sn16 \parenthesize sn hh <<hh bd>> \parenthesize sn \parenthesize sn <<hh bd>> \parenthesize sn\parenthesize sn <<hh bd>> sn-> \parenthesize sn <<hh bd>> sn-> hh <<hh bd>> }  >>\break
